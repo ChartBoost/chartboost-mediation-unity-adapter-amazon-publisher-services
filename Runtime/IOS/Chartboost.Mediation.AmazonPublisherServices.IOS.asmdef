@@ -1,0 +1,22 @@
+{
+    "name": "Chartboost.Mediation.AmazonPublisherServices.IOS",
+    "rootNamespace": "Chartboost.Mediation.AmazonPublisherServices.IOS",
+    "references": [
+        "Chartboost.Threading",
+        "Chartboost.Mediation.AmazonPublisherServices"
+    ],
+    "includePlatforms": [
+        "Editor",
+        "iOS"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        ""
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

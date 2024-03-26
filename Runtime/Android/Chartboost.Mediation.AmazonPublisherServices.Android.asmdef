@@ -1,0 +1,22 @@
+{
+    "name": "Chartboost.Mediation.AmazonPublisherServices.Android",
+    "rootNamespace": "Chartboost.Mediation.AmazonPublisherServices.Android",
+    "references": [
+        "Chartboost.Threading",
+        "Chartboost.Mediation.AmazonPublisherServices"
+    ],
+    "includePlatforms": [
+        "Android",
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [
+        ""
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies>
+  <androidPackages>
+    <!-- Android Adapter -->
+    <androidPackage spec="com.chartboost:chartboost-mediation-adapter-amazon-publisher-services:4.9.9.+"/>
+
+    <!-- Partner Android SDK Dependencies-->
+    <androidPackage spec="com.amazon.android:aps-sdk:9.9.+"/>
+
+    <repositories>
+      <repository>https://aws.oss.sonatype.org/content/repositories/releases/</repository>
+    </repositories>
+  </androidPackages>
+  <iosPods>
+    <!-- iOS Adapter -->
+    <iosPod name="ChartboostMediationAdapterAmazonPublisherServices" version="~> 4.4.8.0"/>
+    
+    <!-- Partner iOS SDK-->
+    <iosPod name="AmazonPublisherServicesSDK" version="~> 4.8.0" addToAllTargets="true"/>
+
+    <!-- Amazon Plugin for iOS-->
+    <iosPod name="Amazon-SDK-Plugin" minTargetSdk="12.5" path="Assets/Amazon/Plugins/iOS"/>
+  </iosPods>
+</dependencies>
+
