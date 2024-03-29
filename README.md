@@ -5,9 +5,13 @@ Ad adapter for Amazon Publisher Services, to be utilized along the APS Unity Plu
 # Installation
 This package is meant to be integrating when using Amazon Publisher Services as an ad adapter.
 
+### Using the public [npm registry](https://www.npmjs.com/search?q=com.chartboost.mediation.unity.aps)
+
+In order to add the Chartboost Mediation Unity SDK - AmazonPublisherServices Adapter to your project using the npm package, add the following to your Unity Project's ***manifest.json*** file. The scoped registry section is required in order to fetch packages from the NpmJS registry.
+
 ```json
 "dependencies": {
-    "com.chartboost.mediation.unity.aps": "1.0.0",
+    "com.chartboost.mediation.unity.aps": "4.0.1",
     ...
 },
 "scopedRegistries": [
@@ -21,9 +25,24 @@ This package is meant to be integrating when using Amazon Publisher Services as 
 ]
 ```
 
-# Demo App
-A demo application is available in the following[repository](https://github.com/ChartBoost/chartboost-mediation-unity-adapter-amazon-publisher-services-demo).
+### Using the public [NuGet package](https://www.nuget.org/packages/Chartboost.CSharp.Mediation.Unity.Adapter.AmazonPublisherServices)
 
+To add the Chartboost Mediation Unity SDK - AmazonPublisherServices Adapter to your project using the NuGet package, you will first need to add the [NugetForUnity](https://github.com/GlitchEnzo/NuGetForUnity) package into your Unity Project.
+
+This can be done by adding the following to your Unity Project's ***manifest.json***
+
+```json
+  "dependencies": {
+    "com.github-glitchenzo.nugetforunity": "https://github.com/GlitchEnzo/NuGetForUnity.git?path=/src/NuGetForUnity",
+    ...
+  },
+```
+
+Once <code>NugetForUnity</code> is installed, search for `Chartboost.CSharp.Mediation.Unity.Adapter.AmazonPublisherServices` in the search bar of Nuget Explorer window(Nuget -> Manage Nuget Packages).
+You should be able to see the `Chartboost.CSharp.Mediation.Unity.Adapter.AmazonPublisherServices` package. Choose the appropriate version and install.
+
+# Demo App
+A demo application is available in the following [repository](https://github.com/ChartBoost/chartboost-mediation-unity-adapter-amazon-publisher-services-demo).
 
 # Dependencies
 
