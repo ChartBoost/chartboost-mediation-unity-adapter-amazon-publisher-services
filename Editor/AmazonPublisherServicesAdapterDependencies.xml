@@ -6,7 +6,8 @@
 
     <!-- Partner Android SDK Dependencies-->
     <androidPackage spec="com.amazon.android:aps-sdk:9.9.+"/>
-
+    <androidPackage spec="com.iabtcf:iabtcf-decoder:2.0.10"/>
+    
     <repositories>
       <repository>https://aws.oss.sonatype.org/content/repositories/releases/</repository>
     </repositories>
