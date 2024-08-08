@@ -1,4 +1,5 @@
 #import "CBMAPSUnityPreBiddingObserver.h"
+#import "CBMUnityUtilities.h"
 
 @implementation CBAPSUnityPreBiddingObserver
 
@@ -30,14 +31,16 @@
         completion(preBidResult);
     };
 
-    const char* chartboostPlacement = [[request chartboostPlacement] UTF8String];
+    const char* mediationPlacement = [[request mediationPlacement] UTF8String];
     const char* format = [[request format] UTF8String];
     int height = [request amazonSettings] ? (int)[[request amazonSettings] height] : 0;
     int width = [request amazonSettings] ? (int)[[request amazonSettings] width] : 0;
     bool isVideo = [request amazonSettings] ? [[request amazonSettings] video] : false;
     const char * partnerPlacement = [request amazonSettings] ? [[[request amazonSettings] partnerPlacement] UTF8String] : nil;
+    const char * keywordsJson = [request keywords] ? toJSON([request keywords]) : NULL;
+    const char * bannerSizeJson = [request bannerSize] ? toJSON(bannerSizeToDictionary([request bannerSize])) : NULL;
 
-    _preBidConsumer(chartboostPlacement, format, height, width, isVideo, partnerPlacement);
+    _preBidConsumer(mediationPlacement, format, keywordsJson, bannerSizeJson, height, width, isVideo, partnerPlacement);
 }
 
 - (void)completePreBid:(AmazonPublisherServicesAdapterPreBidResult*)preBidResult {

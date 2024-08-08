@@ -3,7 +3,10 @@
     "rootNamespace": "Chartboost.Mediation.AmazonPublisherServices.IOS",
     "references": [
         "Chartboost.Threading",
-        "Chartboost.Mediation.AmazonPublisherServices"
+        "Chartboost.Logging",
+        "Chartboost.Mediation.AmazonPublisherServices",
+        "Chartboost.Mediation",
+        "Chartboost.Utilities.IOS"
     ],
     "includePlatforms": [
         "Editor",

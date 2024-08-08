@@ -3,7 +3,11 @@
     "rootNamespace": "Chartboost.Mediation.AmazonPublisherServices.Android",
     "references": [
         "Chartboost.Threading",
-        "Chartboost.Mediation.AmazonPublisherServices"
+        "Chartboost.Logging",
+        "Chartboost.Mediation.AmazonPublisherServices",
+        "Chartboost.Mediation",
+        "Chartboost.Mediation.Android",
+        "Chartboost.Utilities.Android"
     ],
     "includePlatforms": [
         "Android",

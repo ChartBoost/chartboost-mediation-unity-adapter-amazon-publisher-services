@@ -1,3 +1,6 @@
+using System.Collections.Generic;
+using Chartboost.Mediation.Ad.Banner;
+
 namespace Chartboost.Mediation.AmazonPublisherServices
 {
     /// <summary>
@@ -12,7 +15,7 @@ namespace Chartboost.Mediation.AmazonPublisherServices
         /// <summary>
         /// Chartboost Mediation's placement identifier.
         /// </summary>
-        public readonly string ChartboostPlacement;
+        public readonly string MediationPlacement;
 
         /// <summary>
         /// Ad format.
@@ -20,15 +23,27 @@ namespace Chartboost.Mediation.AmazonPublisherServices
         public readonly string Format;
 
         /// <summary>
+        /// Key-value pairs to be associated with the placement.
+        /// </summary>
+        public readonly IReadOnlyDictionary<string, string> Keywords;
+        
+        /// <summary>
+        /// The size of the banner being requested.
+        /// </summary>
+        public readonly BannerSize? BannerSize;
+
+        /// <summary>
         /// Amazon-specific info needed to load the APS ad.
         /// </summary>
         public readonly AmazonSettings AmazonSettings;
-        
-        internal AmazonPublisherServicesAdapterPreBidRequest(string chartboostPlacement, string format, AmazonSettings amazonSettings)
+
+        internal AmazonPublisherServicesAdapterPreBidRequest(string mediationPlacement, string format, IReadOnlyDictionary<string, string> keywords, BannerSize? bannerSize, AmazonSettings amazonSettings)
         {
-            ChartboostPlacement = chartboostPlacement;
+            MediationPlacement = mediationPlacement;
             Format = format;
-            this.AmazonSettings = amazonSettings;
+            Keywords = keywords;
+            BannerSize = bannerSize;
+            AmazonSettings = amazonSettings;
         }
     }
 }

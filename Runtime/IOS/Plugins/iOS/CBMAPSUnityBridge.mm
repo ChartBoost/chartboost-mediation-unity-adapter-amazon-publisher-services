@@ -1,6 +1,23 @@
 #import "CBMAPSUnityPreBiddingObserver.h"
 
 extern "C" {
+
+    const char * _CBMAmazonPublisherServicesAdapterAdapterVersion(){
+        return toCStringOrNull([AmazonPublisherServicesAdapterConfiguration adapterVersion]);
+    }
+
+    const char * _CBMAmazonPublisherServicesAdapterPartnerSDKVersion(){
+        return toCStringOrNull([AmazonPublisherServicesAdapterConfiguration partnerSDKVersion]);
+    }
+
+    const char * _CBMAmazonPublisherServicesAdapterPartnerId(){
+        return toCStringOrNull([AmazonPublisherServicesAdapterConfiguration partnerID]);
+    }
+
+    const char * _CBMAmazonPublisherServicesAdapterPartnerDisplayName(){
+        return toCStringOrNull([AmazonPublisherServicesAdapterConfiguration partnerDisplayName]);
+    }
+
     bool _CBMAmazonPublisherServicesAdapterGetTestMode() {
         return [AmazonPublisherServicesAdapterConfiguration testMode];
     }
