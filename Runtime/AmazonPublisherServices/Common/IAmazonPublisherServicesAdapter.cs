@@ -1,10 +1,12 @@
+using Chartboost.Mediation.Adapters;
+
 namespace Chartboost.Mediation.AmazonPublisherServices.Common
 {
     #nullable enable
     /// <summary>
     /// The Chartboost Mediation Amazon Publisher Services (APS) adapter.
     /// </summary>
-    public interface IAmazonPublisherServicesAdapter
+    internal interface IAmazonPublisherServicesAdapter : IPartnerAdapterConfiguration
     {
         /// <summary>
         /// Flag that can optionally be set to enable the partner's test mode.

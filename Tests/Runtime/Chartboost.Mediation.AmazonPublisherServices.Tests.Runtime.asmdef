@@ -1,15 +1,18 @@
 {
-    "name": "Chartboost.Mediation.AmazonPublisherServices.Tests.Editor",
-    "rootNamespace": "Chartboost.Tests.Editor",
+    "name": "Chartboost.Mediation.AmazonPublisherServices.Tests.Runtime",
+    "rootNamespace": "Chartboost.Tests",
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
-        "Chartboost.Utilities.Editor",
+        "Chartboost.Utilities",
+        "Chartboost.Mediation.AmazonPublisherServices",
         "Chartboost.Logging",
-        "Chartboost.Mediation.AmazonPublisherServices"
+        "Chartboost.Utilities.Tests.Runtime"
     ],
     "includePlatforms": [
-        "Editor"
+        "Android",
+        "Editor",
+        "iOS"
     ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,

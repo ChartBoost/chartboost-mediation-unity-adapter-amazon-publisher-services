@@ -1,7 +1,23 @@
 # Changelog
 All notable changes to this project will be documented in this file using the standards as defined at [Keep a Changelog](https://keepachangelog.com/en/1.0.0/). This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0).
 
-### Version 4.0.1 *(20204-03-27)*
+### Version 5.0.0 *(2024-08-08)*
+
+#Added 
+- Support for the following 'Amazon Publisher Services' dependencies. Notice adapter dependencies are optimistic and any patches and hot-fixes will be automatically picked up.:
+    * Android: `com.chartboost:chartboost-mediation-adapter-amazon-publisher-services:5.9.10.+`
+    * iOS: `ChartboostMediationAdapterAmazonPublisherServices ~> ~> 5.4.9.0`
+    
+- The following properties have been added in `AmazonPublisherServicesAdapter.cs`
+    * `string AdapterUnityVersion`
+    * `string AdapterNativeVersion`
+    * `string PartnerSDKVersion`
+    * `string PartnerIdentifier`
+    * `string PartnerDisplayName`
+    * `bool TestMode`
+    * `bool VerboseLogging`
+
+### Version 4.0.1 *(2024-03-27)*
 Bug Fixes:
 
 - Added `<androidPackage spec="com.iabtcf:iabtcf-decoder:2.0.10"/>` to `AmazonPublisherServicesAdapterDependencies.xml`

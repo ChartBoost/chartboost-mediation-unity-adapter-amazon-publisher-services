@@ -2,7 +2,10 @@
     "name": "Chartboost.Mediation.AmazonPublisherServices",
     "rootNamespace": "Chartboost.Mediation.AmazonPublisherServices",
     "references": [
-        "Chartboost.Threading"
+        "Chartboost.Threading",
+        "Chartboost.Logging",
+        "Chartboost.Utilities",
+        "Chartboost.Mediation"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

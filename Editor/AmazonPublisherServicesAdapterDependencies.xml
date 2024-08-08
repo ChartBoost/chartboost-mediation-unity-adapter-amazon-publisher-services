@@ -2,10 +2,9 @@
 <dependencies>
   <androidPackages>
     <!-- Android Adapter -->
-    <androidPackage spec="com.chartboost:chartboost-mediation-adapter-amazon-publisher-services:4.9.9.+"/>
+    <androidPackage spec="com.chartboost:chartboost-mediation-adapter-amazon-publisher-services:5.9.10.+"/>
 
     <!-- Partner Android SDK Dependencies-->
-    <androidPackage spec="com.amazon.android:aps-sdk:9.9.+"/>
     <androidPackage spec="com.iabtcf:iabtcf-decoder:2.0.10"/>
     
     <repositories>
@@ -14,13 +13,12 @@
   </androidPackages>
   <iosPods>
     <!-- iOS Adapter -->
-    <iosPod name="ChartboostMediationAdapterAmazonPublisherServices" version="~> 4.4.8.0"/>
+    <iosPod name="ChartboostMediationAdapterAmazonPublisherServices" version="~> 5.4.9.0"/>
     
     <!-- Partner iOS SDK-->
-    <iosPod name="AmazonPublisherServicesSDK" version="~> 4.8.0" addToAllTargets="true"/>
+    <iosPod name="AmazonPublisherServicesSDK" version="~> 4.9.0" addToAllTargets="true"/>
 
     <!-- Amazon Plugin for iOS-->
     <iosPod name="Amazon-SDK-Plugin" minTargetSdk="12.5" path="Assets/Amazon/Plugins/iOS"/>
   </iosPods>
 </dependencies>
-

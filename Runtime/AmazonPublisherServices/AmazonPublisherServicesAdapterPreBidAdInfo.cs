@@ -22,5 +22,4 @@ namespace Chartboost.Mediation.AmazonPublisherServices
             BidInfo = bidInfo;
         }
     }
-    #nullable disable
 }
