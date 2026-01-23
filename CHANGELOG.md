@@ -1,14 +1,19 @@
 # Changelog
 All notable changes to this project will be documented in this file using the standards as defined at [Keep a Changelog](https://keepachangelog.com/en/1.0.0/). This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0).
 
+### Version 5.1.0 *(2025-06-02)*
+This version of the Amazon APS Adapter supports the following native SDK dependencies:
+  * Android: `com.chartboost:chartboost-mediation-adapter-amazon-publisher-services:5.10.1.+`
+  * iOS: `ChartboostMediationAdapterAmazonPublisherServices: ~> 5.5.2.0`
+
 ### Version 5.0.1 *(2024-10-09)*
 This version of the Amazon APS Adapter supports the following native SDK dependencies:
-  * Android: `com.chartboost:chartboost-mediation-adapter-amazon-publisher-services:chartboost-mediation-adapter-amazon-publisher-services:5.9.10.+`
+  * Android: `com.chartboost:chartboost-mediation-adapter-amazon-publisher-services:5.9.10.+`
   * iOS: `ChartboostMediationAdapterAmazonPublisherServices: ~> 5.4.10.0`
 
 ### Version 5.0.0 *(2024-08-08)*
 
-#Added 
+# Added 
 - Support for the following 'Amazon Publisher Services' dependencies. Notice adapter dependencies are optimistic and any patches and hot-fixes will be automatically picked up.:
     * Android: `com.chartboost:chartboost-mediation-adapter-amazon-publisher-services:5.9.10.+`
     * iOS: `ChartboostMediationAdapterAmazonPublisherServices ~> ~> 5.4.9.0`
