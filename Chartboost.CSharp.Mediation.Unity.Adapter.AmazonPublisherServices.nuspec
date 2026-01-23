@@ -2,17 +2,17 @@
 <package>
   <metadata>
     <id>Chartboost.CSharp.Mediation.Unity.Adapter.AmazonPublisherServices</id>
-    <version>5.0.1</version>
+    <version>5.1.0</version>
     <title>Chartboost Mediation Adapter - Amazon Publisher Services Adapter</title>
     <description>The Chartboost Mediation Unity SDK Ad Adapter for Amazon Publisher Services.</description>
     <authors>Chartboost</authors>
     <owners>Chartboost</owners>
     <license type="file">LICENSE.md</license>
     <readme>README.md</readme>
-    <projectUrl>https://www.chartboost.com/mediate</projectUrl>
+    <projectUrl>https://www.chartboost.com</projectUrl>
     <copyright>Copyright 2024</copyright>
-    <tags>Chartboost, Ads, Mediation, Unity, Adapter, AmazonPublisherServices, cs</tags>
-    <repository type="git" url="https://github.com/ChartBoost/chartboost-mediation-unity-adapter-amazon-publisher-services"/>
+    <tags>Chartboost, Mediation, Adapter, Unity, Amazon Publisher Services</tags>
+    <repository type="git" url="https://github.com/ChartBoost/chartboost-mediation-unity-adapter-amazon-publisher-services.git"/>
     <dependencies>
       <dependency id="Chartboost.CSharp.Mediation.Unity" version="5.0.0" />
       <dependency id="Chartboost.CSharp.Threading.Unity" version="1.0.1" />
