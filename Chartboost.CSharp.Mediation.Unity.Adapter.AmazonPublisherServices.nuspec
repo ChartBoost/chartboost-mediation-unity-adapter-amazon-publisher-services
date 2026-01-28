@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>Chartboost.CSharp.Mediation.Unity.Adapter.AmazonPublisherServices</id>
-    <version>5.2.1</version>
+    <version>5.2.2</version>
     <title>Chartboost Mediation Adapter - Amazon Publisher Services Adapter</title>
     <description>The Chartboost Mediation Unity SDK Ad Adapter for Amazon Publisher Services.</description>
     <authors>Chartboost</authors>
