@@ -15,7 +15,7 @@ In order to add the Chartboost Mediation Unity SDK - Amazon Publisher Services A
 
 ```json
 "dependencies": {
-    "com.chartboost.mediation.unity.adapter.amazon-publisher-services": "5.2.1",
+    "com.chartboost.mediation.unity.adapter.amazon-publisher-services": "5.2.2",
     ...
 },
 "scopedRegistries": [
