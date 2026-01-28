@@ -2,7 +2,7 @@
 <dependencies>
   <androidPackages>
     <!-- Android Adapter -->
-    <androidPackage spec="com.chartboost:chartboost-mediation-adapter-amazon-publisher-services:5.10.1.+"/>
+    <androidPackage spec="com.chartboost:chartboost-mediation-adapter-amazon-publisher-services:5.11.0.+"/>
 
     <!-- Partner Android SDK Dependencies-->
     <androidPackage spec="com.iabtcf:iabtcf-decoder:2.0.10"/>
