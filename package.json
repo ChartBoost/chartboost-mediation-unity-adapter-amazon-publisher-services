@@ -1,6 +1,6 @@
 {
     "name": "com.chartboost.mediation.unity.adapter.amazon-publisher-services",
-	"version": "5.2.0",
+	"version": "5.2.1",
     "license": "MIT",
     "displayName": "Chartboost Mediation Adapter - Amazon Publisher Services",
     "description": "The Chartboost Mediation Unity SDK Ad Adapter for Amazon Publisher Services.",
