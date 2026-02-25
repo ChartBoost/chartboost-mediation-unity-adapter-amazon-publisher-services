@@ -13,10 +13,10 @@
   </androidPackages>
   <iosPods>
     <!-- iOS Adapter -->
-    <iosPod name="ChartboostMediationAdapterAmazonPublisherServices" version="~> 5.5.3.0"/>
+    <iosPod name="ChartboostMediationAdapterAmazonPublisherServices" version="~> 5.5.4.0"/>
     
     <!-- Partner iOS SDK-->
-    <iosPod name="AmazonPublisherServicesSDK" version="~> 5.3.0" addToAllTargets="true"/>
+    <iosPod name="AmazonPublisherServicesSDK" version="~> 5.4.0" addToAllTargets="true"/>
 
     <!-- Amazon Plugin for iOS-->
     <iosPod name="Amazon-SDK-Plugin" minTargetSdk="12.5" path="Assets/Amazon/Plugins/iOS"/>
